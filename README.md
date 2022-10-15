@@ -49,39 +49,30 @@ public class AlarmClock
       this.color = a.color;
       this.price = a.price;
     }
-    
-   //setters
-   public void setAlarmClock (String brand ,String color ,int price)
-  {
+     //setters
+     public void setAlarmClock (String brand ,String color ,int price)
+    {
       brand = brand;
       color = color;
       price = price;
      
-  }
-//getters
-public String getBrand() {return brand;}
-public String getColor() {return color;}
-public int getPrice() {return price;}
+    }
+    //getters
+    public String getBrand() {return brand;}
+    public String getColor() {return color;}
+    public int getPrice() {return price;}
 
-public String toString()
-{
+    public String toString()
+    {
     return ("\n Brand :" +brand +"\n Color:"+color + "\n price:"+price ); 
-}
-}
-
-
-
-
-
-
-
-
+    }
+    }
 
 
 IN MAIN 
 
-public class AlarmClockTest
-{
+     public class AlarmClockTest
+    {
      public static void main (String [] args)
     {
         AlarmClock c = new AlarmClock ();
@@ -89,4 +80,4 @@ public class AlarmClockTest
         
         System.out.println (c1.toString());
     }
-}
+    }
